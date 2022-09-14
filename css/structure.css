@@ -1,0 +1,196 @@
+/*STYLE GENERAL*/
+html {
+	scroll-behavior: smooth;/*Pour mettre du smotth sur mes ancres lorsqu'on scroll*/
+}
+
+h1, h2{
+	color: black;
+	font-size: 25px;
+	margin-bottom: 2%;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+p{
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-bottom: 2%;
+	margin: 0;
+}
+
+section{
+	padding: 5%;
+}
+
+body{
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.637);
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*FIN STYLE GENERAL*/
+
+/*Gestion du parallax*/
+.parallax-1, .parallax-2, .parallax-3, .parallax-4, .parallax-5, .parallax-6, .parallax-7{
+	height: 500px;
+}
+
+.parallax-1{
+	background-image: url(../img/image1.jpg);/*Pour importer mon image, attention au chemin on part du fichier .css pour aller ateindre l'image*/
+	/*Pour créer la sensation de parallax*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-2{
+	background-image: url(../img/image2.jpg);/*Pour importer mon image, attention au chemin on part du fichier .css pour aller ateindre l'image*/
+	/*Pour créer la sensation de parallax*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-3{
+	background-image: url(../img/image3.jpg);/*Pour importer mon image, attention au chemin on part du fichier .css pour aller ateindre l'image*/
+	/*Pour créer la sensation de parallax*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-4{
+	background-image: url(../img/image4.jpg);/*Pour importer mon image, attention au chemin on part du fichier .css pour aller ateindre l'image*/
+	/*Pour créer la sensation de parallax*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-5{
+	background-image: url(../img/image5.jpg);/*Pour importer mon image, attention au chemin on part du fichier .css pour aller ateindre l'image*/
+	/*Pour créer la sensation de parallax*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-6{
+	background-image: url(../img/image6.jpg);/*Pour importer mon image, attention au chemin on part du fichier .css pour aller ateindre l'image*/
+	/*Pour créer la sensation de parallax*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-7{
+	background-image: url(../img/image7.jpg);/*Pour importer mon image, attention au chemin on part du fichier .css pour aller ateindre l'image*/
+	/*Pour créer la sensation de parallax*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*FIN - gestion du parallax*/
+
+header{
+	text-align: center;
+	background-color: aqua;
+	
+}
+
+.logo{
+	width: 10%;
+}
+
+nav{
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+nav a{
+	border: 2px solid black;
+	padding: 5px;
+	background-color: gray;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	background-color: white;
+	color: gray;
+}
+
+
+
+#premiere-section{
+	/* background-color: chocolate; */
+	border: 1px solid #00bebe;
+    color: #00dcdc;
+	background: rgba(0, 190, 190, 0.1);
+	
+}
+
+#deuxieme-section{
+	background-color:crimson ;
+}
+
+figure{
+	text-align: center;
+}
+
+#troisieme-section{
+	background-color: darkgoldenrod;
+}
+
+#quatrieme-section{
+	background-color: darkorchid;
+}
+
+#cinquieme-section{
+	background-color:darkseagreen;
+}
+
+#sixieme-section{
+	background-color:yellow;
+}
+
+#septieme-section{
+	background-color:chocolate;
+}
+
+span{
+	color: blue;
+	font-weight: bold;
+}
+
+.container-2{
+	text-align: center;
+}
+
+.fas{
+	font-size: 50px;
+	text-align: center;
+}
+
+footer{
+	height: 30vh;
+	text-align: center;
+	background-color: lightgray;
+}
+
+
